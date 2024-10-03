@@ -1,0 +1,7 @@
+Sl No.,Test Name,Input,Expected Result,Description
+TC_001,ExpectZeroForEmptyInput,"""""",0,Returns 0 for empty input.
+TC_002,ExpectZeroForSingleZero,"""0""",0,Returns 0 for input '0'.
+TC_003,ExpectSumForTwoNumbers,"""1,2""",3,Returns sum of two numbers separated by comma.
+TC_004,ExpectSumWithNewlineDelimiter,"""1\n2,3""",6,Handles new line delimiter and returns the sum.
+TC_005,ignoreNumbersGreaterThan1000,"""1,1001""",1,Ignores numbers greater than 1000.
+TC_006,ExpectSumWithCustomDelimiter,"""//;\n1;2""",3,Handles custom delimiter and returns the sum.
